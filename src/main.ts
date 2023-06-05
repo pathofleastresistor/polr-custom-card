@@ -1,8 +1,9 @@
 import {LitElement, html, css, CSSResultGroup} from 'lit';
+import { property } from "lit/decorators.js";
 
 class PolrCustomCard extends LitElement {
-  _config : any;
-  _hass : any;
+  @property() _config : any;
+  @property() _hass : any;
 
   static getConfigElement() {
     return document.createElement("polr-custom-card-editor");
