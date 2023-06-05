@@ -6,7 +6,7 @@ class PolrCustomCard extends LitElement {
   @property() _hass : any;
 
   static getConfigElement() {
-    return document.createElement("polr-custom-card-editor");
+    // return document.createElement("polr-custom-card-editor");
   }
 
   setConfig(config : any) {
