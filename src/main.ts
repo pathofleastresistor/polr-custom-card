@@ -9,11 +9,16 @@ class PolrCustomCard extends LitElement {
     // return document.createElement("polr-custom-card-editor");
   }
 
+  static getStubConfig() {
+    return {
+    };
+  }
+
   setConfig(config : any) {
     this._config = config;
   }
 
-  setHass(hass : any) {
+  set hass(hass : any) {
   }
 
   render() {
